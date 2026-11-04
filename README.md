@@ -6,6 +6,7 @@
 [![Security](https://img.shields.io/badge/Security-UFW%20%7C%20SSH%20Keys-blue)](https://ubuntu.com/server/docs/security-firewall)
 [![Automation](https://img.shields.io/badge/Automation-Bash%20Scripting-4EAA25?logo=gnu-bash&logoColor=white)](https://www.gnu.org/software/bash/)
 [![Monitoring](https://img.shields.io/badge/Observability-CloudWatch%20Alarms-critical)](https://aws.amazon.com/cloudwatch/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 A production-grade infrastructure automation and cloud administration project demonstrating the hands-off provisioning, configuration, security hardening, and metric-based observability of a high-performance **Nginx** web server on an **AWS EC2 Ubuntu 22.04 LTS** instance.
 
@@ -31,6 +32,7 @@ The project incorporates AWS networking controls (custom VPC security groups wit
 - [Verification, Testing & Stress Simulation](#verification-testing--stress-simulation)
 - [Production Runbook & Troubleshooting](#production-runbook--troubleshooting)
 - [Teardown & Cost Optimization](#teardown--cost-optimization)
+- [License](#license)
 
 ---
 
@@ -384,3 +386,10 @@ aws ec2 delete-security-group --group-id <SECURITY_GROUP_ID> --region us-east-1
 aws ec2 delete-key-pair --key-name ec2-webserver-key --region us-east-1
 rm -f ec2-webserver-key.pem
 ```
+
+---
+
+## License
+
+This project is licensed under the terms of the [MIT License](LICENSE). Copyright &copy; 2026 Rudrali Solapure.
+
