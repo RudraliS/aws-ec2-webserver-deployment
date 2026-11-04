@@ -1,0 +1,8 @@
+*.pem
+*.key
+.env
+.terraform/
+*.tfstate
+*.tfstate.backup
+.DS_Store
+*.log
